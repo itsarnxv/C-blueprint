@@ -1,0 +1,20 @@
+/* Write a program that prints the sum of all even numbers between 1 and 20. 
+Use continue to skip odd numbers. */
+
+#include<stdio.h>
+
+int main()
+{
+    int n;
+    int sum = 0;
+    for (int i = 0; i <= 20; i++)
+    {
+          if(i % 2 != 0)
+          {
+            continue;
+          }
+          sum += i;
+    }
+    printf("Sum of even numbers between 5 and 20 = %d " , sum);
+return 0;
+}

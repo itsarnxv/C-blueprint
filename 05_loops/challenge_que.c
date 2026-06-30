@@ -1,0 +1,22 @@
+// Write a program that prints a multiplication table from 1 to 10 in a grid format using nested for loops.
+
+#include<stdio.h>
+
+int main()
+{
+    int i , j , n;
+
+    printf("Enter n : ");
+    scanf("%d" , &n);
+
+    for(i = 1 ; i <= n ; i++)
+    {
+        for(j = 1 ; j <= n ; j++)
+        {
+            printf("* ");
+        }
+        printf("\n");
+    }
+
+return 0;
+}
