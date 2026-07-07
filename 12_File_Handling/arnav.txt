@@ -1,0 +1,6 @@
+Hello Arnav
+Learning File Handling
+This is written using fprintf().
+This line is appended.
+
+New line added using r+ mode.
